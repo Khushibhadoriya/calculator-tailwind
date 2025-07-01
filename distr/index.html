@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./output.css" rel="stylesheet">
+      <title>Calculator</title>
+</head>
+<body class="bg-cyan-200">
+  <h1 class="text-4xl text-center font-semibold font-sans border-2 ">Calculator</h1>
+      <div class="bg-pink-300  h-[670px] w-120 m-auto p-3 shadow-2xl shadow-pink-500 border-2 flex flex-col mt-15 mb-15 ">
+        <div id="screen" class="bg-gray-300 h-[70px] w-[100%] text-black text-2xl flex items-baseline-last">
+               2+2=4
+        </div>
+        <div id="number" class=" flex flex-row mt-4 flex-wrap justify-evenly w-auto  text-7xl">
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">7</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">8</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">9</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-2">)</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">4</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">5</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">6</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-2 ">(</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">1</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">2</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">3</button>
+                 <button classname="buttonN" class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200 rounded-[50%] m-3">0</button>
+
+                 <!-- <p class="bg-pink-400 h-auto w-20 text-center rounded-[50%] m-3">0</p> -->
+        </div>
+            
+            <div class="border-b-4  border-amber-300 w-auto"></div>   
+        
+            <div id="operations" class=" mt-4 text-6xl flex  flex-row flex-wrap ">
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">+</button>
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">-</button>
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">&#215</button>
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">&#247</button>
+            <!-- <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">0</button> -->
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">00</button>
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">C</button>
+            <button class="bg-pink-400 h-auto w-20 text-center hover:bg-pink-200  m-3">⌫</button>
+            <button id="equal" class="bg-pink-600 h-auto w-20 text-center hover:bg-pink-200  m-3">=</button>
+
+
+      
+           </div>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
